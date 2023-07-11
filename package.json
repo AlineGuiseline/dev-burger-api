@@ -1,14 +1,20 @@
 {
   "name": "api-hamburgueria",
   "version": "1.0.0",
-  "description": "",
+  "description": "Desafio proposto no DevClub: criação de uma API, para testar conhecimento de rotas. Permite criar, visualizar, editar e deletar pedidos de uma hamburgueria",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "express",
+    "uuid",
+    "nodemon",
+    "insomnia"
+  ],
+  "author": "Aline Guiseline",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",

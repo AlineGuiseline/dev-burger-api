@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Desafio proposto no DevClub: criação de uma API, para testar conhecimento de rotas. Permite criar, visualizar, editar e deletar pedidos de uma hamburgueria",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon"
   },
@@ -12,7 +16,8 @@
     "express",
     "uuid",
     "nodemon",
-    "insomnia"
+    "insomnia",
+    "cors"
   ],
   "author": "Aline Guiseline",
   "license": "ISC",

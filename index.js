@@ -1,9 +1,11 @@
 const express = require('express');
 const uuid = require('uuid');
+const cors = require('cors');
 
 const app = express();
 app.use(express.json());
-const port = 3000
+app.use(cors());
+const port = 3001
 
 const orders = []
 
